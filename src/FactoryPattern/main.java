@@ -13,7 +13,6 @@ public class main {
 
         createAndShowProduct(factoryA);
         createAndShowProduct(factoryB);
-
     }
 
     public static void createAndShowProduct(ProductFactory productFactory){
