@@ -10,7 +10,6 @@ public class main {
     public static void main(String[] args) {
         ProductFactory factoryA = new ProductAFactory();
         ProductFactory factoryB = new ProductBFactory();
-
         createAndShowProduct(factoryA);
         createAndShowProduct(factoryB);
     }
