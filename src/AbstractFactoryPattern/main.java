@@ -12,7 +12,7 @@ public class main {
 
     public static void showProduct(String osType) {
         ProductFactory productFactory;
-        
+
         if (osType.equals("Mac")) {
             productFactory = new MacProductFactory();
         } else if (osType.equals("Windows")) {
