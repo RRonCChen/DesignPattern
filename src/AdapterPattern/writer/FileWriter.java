@@ -1,10 +1,10 @@
-package AdapterPattern;
+package AdapterPattern.writer;
 
 public class FileWriter implements Writer {
 
     private String fileName;
 
-    FileWriter(String fileName) {
+    public FileWriter(String fileName) {
         this.fileName = fileName;
     }
 

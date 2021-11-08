@@ -1,10 +1,13 @@
-package AdapterPattern;
+package AdapterPattern.adapter;
+
+import AdapterPattern.adapter.Exporter;
+import AdapterPattern.writer.Writer;
 
 public class WriterAdapter implements Exporter {
 
     private Writer writer;
 
-    WriterAdapter(Writer writer) {
+    public WriterAdapter(Writer writer) {
         this.writer = writer;
     }
 
