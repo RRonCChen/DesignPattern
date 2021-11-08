@@ -1,4 +1,4 @@
-package ProxyPattern;
+package ProxyPattern.normal;
 
 public class SubjectImpl implements Subject{
     @Override

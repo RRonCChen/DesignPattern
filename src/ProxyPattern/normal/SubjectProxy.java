@@ -1,4 +1,4 @@
-package ProxyPattern;
+package ProxyPattern.normal;
 
 public class SubjectProxy implements Subject {
 

@@ -1,4 +1,4 @@
-package ProxyPattern;
+package ProxyPattern.normal;
 
 public class main {
     public static void main(String[] args) {
